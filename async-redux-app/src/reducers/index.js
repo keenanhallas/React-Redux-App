@@ -5,7 +5,7 @@ const initialState = {
     error: ""
 }
 
-const appReducer = (state = initialState, action) => {
+export const appReducer = (state = initialState, action) => {
     switch (action.type) {
         case "FETCHING_GENRE_START":
             return {
