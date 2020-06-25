@@ -27,7 +27,7 @@ export const appReducer = (state = initialState, action) => {
                 isFetching: false,
                 isLoading: false,
                 error: action.payload
-            }
+            };
         default:
             return state;
     }
